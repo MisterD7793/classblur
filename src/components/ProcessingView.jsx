@@ -24,7 +24,7 @@ export default function ProcessingView({ progress, onCancel }) {
       </div>
 
       <p className="text-xs text-green-700 bg-green-50 border border-green-200 rounded px-3 py-1.5">
-        Everything is happening locally — your video is not being uploaded.
+        Everything is happening locally — your video is staying right here on your computer.
       </p>
 
       <button

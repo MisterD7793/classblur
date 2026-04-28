@@ -19,8 +19,8 @@ export default function ResultView({ blobUrl, mimeType, fileName, onReset }) {
   return (
     <div className="flex flex-col items-center gap-6">
       <div className="text-center">
-        <p className="text-lg font-semibold text-gray-800">Faces blurred — ready to download</p>
-        <p className="text-sm text-gray-500 mt-1">Review the preview below, then download your video.</p>
+        <p className="text-lg font-semibold text-gray-800">Faces blurred — ready to save</p>
+        <p className="text-sm text-gray-500 mt-1">Review the preview below, then save your video.</p>
       </div>
 
       {/* Video preview */}
@@ -40,7 +40,7 @@ export default function ResultView({ blobUrl, mimeType, fileName, onReset }) {
           onClick={handleDownload}
           className="w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
         >
-          Download {outName}
+          Save {outName}
         </a>
 
         <button

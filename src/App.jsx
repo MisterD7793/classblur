@@ -101,12 +101,20 @@ export default function App() {
               <div className="text-center">
                 <h2 className="text-2xl font-bold text-gray-900">Blur faces in classroom videos</h2>
                 <p className="text-gray-500 mt-2 text-sm max-w-md mx-auto">
-                  Upload a video, and this tool will automatically detect and blur every face.
-                  Download the result to share safely online.
+                  Select a video, and this tool will automatically detect and blur every face.
+                  Save the result to share safely online.
                 </p>
               </div>
 
               <PrivacyNotice />
+
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800 text-center">
+                <p className="font-semibold">Use a computer, not a phone.</p>
+                <p className="mt-1">
+                  Mobile devices aren't powerful enough to process the blur locally.
+                  Transfer your video to a Mac or PC first, then run it through ClassBlur here.
+                </p>
+              </div>
 
               {detectorError ? (
                 <div className="bg-red-50 border border-red-200 rounded-xl p-4 text-sm text-red-700 text-center">
