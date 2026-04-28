@@ -234,6 +234,7 @@ export function processVideo(file, detector, onProgress, cancelToken) {
 
       video.addEventListener('ended', () => {
         ctx.drawImage(video, 0, 0, vw, vh);
+        blurFaces(ctx, canvas, video, heldDetections);
         onProgress(1);
 
         // Give recorder 200 ms to flush, then stop it
