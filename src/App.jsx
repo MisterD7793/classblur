@@ -148,9 +148,12 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-100 px-6 py-4 text-center">
+      <footer className="border-t border-gray-100 px-6 py-6 text-center flex flex-col gap-1">
         <p className="text-xs text-gray-400">
           No data is collected. No video is stored. Processing happens entirely in your browser.
+        </p>
+        <p className="text-xs text-gray-400">
+          Developed by <a href="https://www.misterd.net" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">MisterD</a>, with help from Claude. Thanks to Binyomin for the idea.
         </p>
       </footer>
     </div>
