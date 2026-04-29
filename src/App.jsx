@@ -99,6 +99,7 @@ export default function App() {
           {appState === IDLE && (
             <>
               <div className="text-center">
+                <img src="/icon.svg" alt="ClassBlur" className="w-36 h-36 rounded-3xl mx-auto mb-4"/>
                 <h2 className="text-2xl font-bold text-gray-900">Blur faces in classroom videos</h2>
                 <p className="text-gray-500 mt-2 text-sm max-w-md mx-auto">
                   Select a video, and this tool will automatically detect and blur every face.
