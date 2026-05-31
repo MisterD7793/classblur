@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Face Blur App Icon</title>
+  <desc>Blue rounded square app icon with a white head and shoulders silhouette and a colorful pixelated mosaic covering the face area.</desc>
+
+  <defs>
+    <linearGradient id="blueBg" x1="120" y1="90" x2="900" y2="960" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1298FF"/>
+      <stop offset="0.55" stop-color="#0477F4"/>
+      <stop offset="1" stop-color="#005CE6"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#003E9B" flood-opacity="0.22"/>
+    </filter>
+
+    <clipPath id="iconClip">
+      <rect x="0" y="0" width="1024" height="1024" rx="210" ry="210"/>
+    </clipPath>
+
+    <clipPath id="faceClip">
+      <path d="M354 360
+               C372 327 420 304 512 304
+               C604 304 652 327 670 360
+               L670 512
+               C670 625 600 724 532 744
+               C519 748 505 748 492 744
+               C424 724 354 625 354 512
+               Z"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#iconClip)">
+    <rect width="1024" height="1024" fill="url(#blueBg)"/>
+    <circle cx="512" cy="500" r="520" fill="#FFFFFF" opacity="0.045"/>
+
+    <g filter="url(#softShadow)">
+      <path fill="#FFFFFF" d="M255 1024
+        C255 900 347 820 443 793
+        L443 690
+        C443 664 464 643 490 643
+        L534 643
+        C560 643 581 664 581 690
+        L581 793
+        C677 820 769 900 769 1024
+        Z"/>
+      <ellipse cx="319" cy="494" rx="39" ry="79" fill="#FFFFFF"/>
+      <ellipse cx="705" cy="494" rx="39" ry="79" fill="#FFFFFF"/>
+      <path fill="#FFFFFF" d="M512 176
+        C386 176 305 266 305 414
+        L305 505
+        C305 662 398 781 512 781
+        C626 781 719 662 719 505
+        L719 414
+        C719 266 638 176 512 176
+        Z"/>
+    </g>
+
+    <g clip-path="url(#faceClip)">
+      <rect x="354" y="304" width="64" height="64" fill="#6D37F5"/>
+      <rect x="418" y="304" width="64" height="64" fill="#FFD21A"/>
+      <rect x="482" y="304" width="64" height="64" fill="#FF4DA6"/>
+      <rect x="546" y="304" width="64" height="64" fill="#19C8F4"/>
+      <rect x="610" y="304" width="64" height="64" fill="#5A3CF2"/>
+
+      <rect x="354" y="368" width="64" height="64" fill="#6BDE3A"/>
+      <rect x="418" y="368" width="64" height="64" fill="#9C32F2"/>
+      <rect x="482" y="368" width="64" height="64" fill="#087EF7"/>
+      <rect x="546" y="368" width="64" height="64" fill="#75E33F"/>
+      <rect x="610" y="368" width="64" height="64" fill="#FF4C95"/>
+
+      <rect x="354" y="432" width="64" height="64" fill="#FFC928"/>
+      <rect x="418" y="432" width="64" height="64" fill="#19B8F2"/>
+      <rect x="482" y="432" width="64" height="64" fill="#81E443"/>
+      <rect x="546" y="432" width="64" height="64" fill="#FF3F8E"/>
+      <rect x="610" y="432" width="64" height="64" fill="#FFD01F"/>
+
+      <rect x="354" y="496" width="64" height="64" fill="#5C46F4"/>
+      <rect x="418" y="496" width="64" height="64" fill="#FF5B9B"/>
+      <rect x="482" y="496" width="64" height="64" fill="#F20EA8"/>
+      <rect x="546" y="496" width="64" height="64" fill="#553DF1"/>
+      <rect x="610" y="496" width="64" height="64" fill="#18C4C5"/>
+
+      <rect x="354" y="560" width="64" height="64" fill="#26C6F3"/>
+      <rect x="418" y="560" width="64" height="64" fill="#9E28F0"/>
+      <rect x="482" y="560" width="64" height="64" fill="#FF477D"/>
+      <rect x="546" y="560" width="64" height="64" fill="#20C89E"/>
+      <rect x="610" y="560" width="64" height="64" fill="#4A4DF4"/>
+
+      <rect x="386" y="624" width="64" height="64" fill="#7DE345"/>
+      <rect x="450" y="624" width="64" height="64" fill="#FFCB22"/>
+      <rect x="514" y="624" width="64" height="64" fill="#F116A7"/>
+      <rect x="578" y="624" width="64" height="64" fill="#16BDEB"/>
+
+      <rect x="450" y="688" width="64" height="64" fill="#7F35F3"/>
+      <rect x="514" y="688" width="64" height="64" fill="#20C89E"/>
+    </g>
+
+    <!-- White sides and chin remain unobscured -->
+    <path fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"
+      d="M337 367
+         L337 515
+         C337 637 424 752 512 752
+         C600 752 687 637 687 515
+         L687 367"/>
+
+    <!-- Hair cap cuts the top of the pixel circle into a natural hairline -->
+    <path fill="#FFFFFF" filter="url(#softShadow)" d="M292 390
+      C306 267 392 182 512 182
+      C621 182 681 235 743 248
+      C719 311 649 338 553 335
+      C465 332 397 305 342 270
+      C326 303 306 339 292 390
+      Z"/>
+
+    <path fill="#FFFFFF" d="M332 342
+      C399 285 488 317 566 317
+      C637 317 691 296 733 253
+      C720 315 653 358 540 358
+      C452 358 391 334 342 300
+      C339 313 336 327 332 342
+      Z"/>
+
+    <!-- Clean lower edge of hairline -->
+    <path fill="#FFFFFF" d="M342 300
+      C390 334 452 358 540 358
+      C653 358 720 315 733 253
+      C698 319 625 386 482 356
+      C418 343 374 321 342 300
+      Z"/>
+  </g>
+</svg>
